@@ -85,7 +85,7 @@ docker run -d --name store-db -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:8.4
 MYSQL="mysql -h127.0.0.1 -uroot -proot" ./tests/run_tests.sh
 ```
 
-Or run the scripts in order in MySQL Workbench: `01_schema.sql`, `02_seed_data.sql`, `03_place_order_procedure.sql`, `04_example_queries.sql`.
+Or run the scripts in order in MySQL Workbench if installed: `01_schema.sql`, `02_seed_data.sql`, `03_place_order_procedure.sql`, `04_example_queries.sql`.
 
 ## Project structure
 
